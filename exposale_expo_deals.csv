@@ -1,0 +1,281 @@
+deal_id,company,rep,booth,region,state,country,lead_source,stage,value,close_date,quarter
+D1065,Ashgrove Textiles,Priya Nair,Hall C · Booth 5,Midwest,Missouri,United States,Referral,Closed Won,9400,2025-06-04,Q2 2025
+D1149,Frostline Appliances,Hannah Cho,Hall B · Booth 23,Midwest,Ohio,United States,Booth Scan,Closed Lost,148900,2025-08-09,Q3 2025
+D1032,Trailhead Outdoors,Ben Whitfield,Hall A · Booth 43,Midwest,Wisconsin,United States,Website Sign-up,Closed Won,104000,2025-03-12,Q1 2025
+D1268,Wren & Co,Diego Alvarez,Hall D · Booth 38,West,Arizona,United States,Cold Outreach,Proposal Sent,138500,2026-05-22,Q2 2026
+D1171,Pinehurst Machinery,Grace Okafor,Hall C · Booth 6,West,Nevada,United States,Booth Scan,Proposal Sent,112000,2025-11-24,Q4 2025
+D1018,Bluepeak Software,Yuki Tanaka,Hall D · Booth 8,Midwest,Ohio,United States,Referral,Negotiation,35900,2025-02-01,Q1 2025
+D1155,Ember Robotics,Ben Whitfield,Hall D · Booth 13,Southeast,Virginia,United States,Booth Scan,Closed Won,111700,2025-11-17,Q4 2025
+D1156,Foundry Dynamics,Fatima Al-Sayed,Hall D · Booth 11,West,California,United States,Referral,Closed Lost,20600,2025-10-26,Q4 2025
+D1209,Vaultkeep Finance,Marcus Webb,Hall B · Booth 41,Southeast,North Carolina,United States,Booth Scan,Qualifying,55200,2026-01-30,Q1 2026
+D1260,Loom & Ledger,Yuki Tanaka,Hall C · Booth 18,Southeast,North Carolina,United States,Booth Scan,Qualifying,18100,2026-06-03,Q2 2026
+D1172,Pinehurst Machinery,Ben Whitfield,Hall A · Booth 21,Midwest,Michigan,United States,Booth Scan,Closed Won,70100,2025-12-24,Q4 2025
+D1238,Nord Robotics,Marcus Webb,Hall A · Booth 48,Southeast,Tennessee,United States,Cold Outreach,Closed Lost,146400,2026-03-03,Q1 2026
+D1103,Foundry Dynamics,Fatima Al-Sayed,Hall A · Booth 30,West,Utah,United States,Booth Scan,Closed Won,16100,2025-05-07,Q2 2025
+D1015,Quarrystone Capital,Liam O'Connor,Hall A · Booth 39,Southeast,Virginia,United States,Referral,Closed Won,14100,2025-02-11,Q1 2025
+D1142,Terraform Agri,Marcus Webb,Hall A · Booth 12,Southeast,Tennessee,United States,Website Sign-up,Closed Won,105100,2025-09-19,Q3 2025
+D1203,Sunward Solar,Grace Okafor,Hall B · Booth 36,Northeast,Pennsylvania,United States,Website Sign-up,Closed Lost,68500,2026-02-11,Q1 2026
+D1045,Sunward Solar,Liam O'Connor,Hall C · Booth 33,Northeast,Connecticut,United States,Website Sign-up,Closed Won,40700,2025-02-09,Q1 2025
+D1269,Solace Interiors,Liam O'Connor,Hall A · Booth 7,International,,Australia,Referral,Negotiation,37700,2026-05-02,Q2 2026
+D1128,Ashgrove Textiles,Yuki Tanaka,Hall D · Booth 47,Midwest,Michigan,United States,Webinar,Closed Lost,92000,2025-07-07,Q3 2025
+D1186,Loom & Ledger,Hannah Cho,Hall C · Booth 37,Southeast,Tennessee,United States,Website Sign-up,Closed Lost,7400,2025-10-06,Q4 2025
+D1008,Moonrise Beverages,Marcus Webb,Hall C · Booth 41,Southeast,Georgia,United States,Referral,Closed Won,111800,2025-03-30,Q1 2025
+D1205,Terraform Agri,Grace Okafor,Hall C · Booth 36,Southeast,Georgia,United States,Cold Outreach,Qualifying,33500,2026-02-08,Q1 2026
+D1041,Brightline Logistics,Fatima Al-Sayed,Hall D · Booth 44,Midwest,Ohio,United States,Website Sign-up,Closed Won,7500,2025-03-10,Q1 2025
+D1046,Coalridge Energy,Ben Whitfield,Hall D · Booth 44,Southeast,Georgia,United States,Booth Scan,Closed Won,30100,2025-01-23,Q1 2025
+D1085,Trailhead Outdoors,Fatima Al-Sayed,Hall D · Booth 41,Southeast,North Carolina,United States,Cold Outreach,Closed Lost,64900,2025-06-02,Q2 2025
+D1150,Halcyon Biotech,Diego Alvarez,Hall C · Booth 9,Midwest,Wisconsin,United States,Referral,Closed Won,163200,2025-09-24,Q3 2025
+D1247,Pinehurst Machinery,Diego Alvarez,Hall B · Booth 13,Northeast,New York,United States,Referral,Proposal Sent,39000,2026-06-19,Q2 2026
+D1019,Cascadia Wellness,Marcus Webb,Hall A · Booth 46,International,,Canada,Booth Scan,Proposal Sent,14000,2025-03-22,Q1 2025
+D1004,Driftwood Packaging,Liam O'Connor,Hall A · Booth 23,Northeast,New Jersey,United States,Booth Scan,Closed Won,9100,2025-02-14,Q1 2025
+D1202,Solace Interiors,Diego Alvarez,Hall C · Booth 27,Southeast,Virginia,United States,Booth Scan,Proposal Sent,22100,2026-01-20,Q1 2026
+D1178,Terraform Agri,Grace Okafor,Hall C · Booth 45,Southeast,North Carolina,United States,Cold Outreach,Negotiation,20500,2025-12-02,Q4 2025
+D1206,Driftwood Packaging,Grace Okafor,Hall C · Booth 19,Midwest,Missouri,United States,Referral,Negotiation,83300,2026-01-16,Q1 2026
+D1063,Frostline Appliances,Diego Alvarez,Hall A · Booth 38,Southeast,Tennessee,United States,Cold Outreach,Closed Lost,102700,2025-04-04,Q2 2025
+D1164,Quarrystone Capital,Fatima Al-Sayed,Hall C · Booth 16,West,Nevada,United States,Booth Scan,Closed Won,124000,2025-12-13,Q4 2025
+D1214,Harborview Insurance,Hannah Cho,Hall B · Booth 8,International,,Mexico,Referral,Qualifying,71000,2026-02-12,Q1 2026
+D1218,Meridian Optics,Marcus Webb,Hall D · Booth 20,Northeast,New York,United States,Website Sign-up,Proposal Sent,97400,2026-01-21,Q1 2026
+D1192,Vantage Point Media,Hannah Cho,Hall D · Booth 32,West,Nevada,United States,Cold Outreach,Closed Won,14200,2025-11-09,Q4 2025
+D1014,Nord Robotics,Fatima Al-Sayed,Hall A · Booth 41,International,,Singapore,Webinar,Closed Lost,89200,2025-02-08,Q1 2025
+D1207,Granite Bay Construction,Liam O'Connor,Hall C · Booth 46,Southeast,Virginia,United States,Booth Scan,Proposal Sent,71200,2026-01-11,Q1 2026
+D1212,Solace Interiors,Hannah Cho,Hall B · Booth 3,West,Oregon,United States,Webinar,Closed Won,20900,2026-02-20,Q1 2026
+D1275,Silverline Foods,Ben Whitfield,Hall C · Booth 36,Southeast,Florida,United States,Referral,Closed Lost,24800,2026-05-25,Q2 2026
+D1201,Vaultkeep Finance,Marcus Webb,Hall B · Booth 34,Northeast,Pennsylvania,United States,Referral,Closed Won,52100,2025-12-20,Q4 2025
+D1124,Wren & Co,Ben Whitfield,Hall D · Booth 7,Midwest,Ohio,United States,Referral,Proposal Sent,123300,2025-09-28,Q3 2025
+D1082,Northstar Fabrication,Hannah Cho,Hall C · Booth 39,Northeast,Pennsylvania,United States,Booth Scan,Closed Lost,60300,2025-06-12,Q2 2025
+D1159,Ironclad Security,Priya Nair,Hall C · Booth 16,West,California,United States,Booth Scan,Closed Lost,38400,2025-11-19,Q4 2025
+D1129,Fernwood Systems,Ben Whitfield,Hall D · Booth 15,Southeast,Virginia,United States,Booth Scan,Closed Won,83000,2025-07-14,Q3 2025
+D1270,Sunward Solar,Priya Nair,Hall D · Booth 22,International,,United Kingdom,Cold Outreach,Qualifying,11600,2026-05-26,Q2 2026
+D1066,Harborview Insurance,Diego Alvarez,Hall D · Booth 46,West,Utah,United States,Cold Outreach,Closed Won,142900,2025-04-20,Q2 2025
+D1169,Redwood Freight,Fatima Al-Sayed,Hall D · Booth 17,International,,United Kingdom,Booth Scan,Closed Won,21300,2025-10-05,Q4 2025
+D1042,Terraform Agri,Hannah Cho,Hall C · Booth 3,International,,Singapore,Cold Outreach,Closed Won,44800,2025-01-14,Q1 2025
+D1133,Timberline Furniture,Diego Alvarez,Hall A · Booth 44,Northeast,Pennsylvania,United States,Booth Scan,Closed Won,115300,2025-07-11,Q3 2025
+D1049,Quarrystone Capital,Priya Nair,Hall D · Booth 40,Northeast,New Jersey,United States,Booth Scan,Closed Won,120700,2025-01-10,Q1 2025
+D1224,Bluepeak Software,Priya Nair,Hall A · Booth 48,West,Oregon,United States,Booth Scan,Negotiation,8300,2026-01-28,Q1 2026
+D1173,Willowmere Health,Hannah Cho,Hall A · Booth 47,West,Nevada,United States,Booth Scan,Closed Won,54300,2025-11-15,Q4 2025
+D1227,Halcyon Biotech,Liam O'Connor,Hall D · Booth 34,Northeast,Maine,United States,Booth Scan,Negotiation,25000,2026-01-17,Q1 2026
+D1183,Trailhead Outdoors,Grace Okafor,Hall B · Booth 9,International,,Australia,Booth Scan,Closed Won,9300,2025-11-25,Q4 2025
+D1143,Trailhead Outdoors,Liam O'Connor,Hall A · Booth 31,Midwest,Ohio,United States,Booth Scan,Closed Won,31900,2025-08-26,Q3 2025
+D1240,Meridian Optics,Ben Whitfield,Hall D · Booth 21,West,Colorado,United States,Referral,Proposal Sent,50300,2026-01-27,Q1 2026
+D1060,Wren & Co,Fatima Al-Sayed,Hall A · Booth 31,West,Nevada,United States,Booth Scan,Closed Won,9800,2025-04-03,Q2 2025
+D1091,Ashgrove Textiles,Hannah Cho,Hall C · Booth 33,West,Arizona,United States,Cold Outreach,Closed Won,77800,2025-06-30,Q2 2025
+D1052,Cascadia Wellness,Liam O'Connor,Hall D · Booth 36,West,Nevada,United States,Website Sign-up,Closed Lost,157400,2025-02-27,Q1 2025
+D1123,Cobalt Materials,Liam O'Connor,Hall B · Booth 18,International,,United Kingdom,Booth Scan,Closed Won,91900,2025-09-18,Q3 2025
+D1121,Trailhead Outdoors,Ben Whitfield,Hall A · Booth 47,Southeast,Georgia,United States,Cold Outreach,Closed Won,70900,2025-09-23,Q3 2025
+D1050,Wren & Co,Grace Okafor,Hall A · Booth 7,West,Washington,United States,Booth Scan,Negotiation,142800,2025-02-24,Q1 2025
+D1130,Northstar Fabrication,Marcus Webb,Hall A · Booth 39,West,California,United States,Webinar,Closed Lost,26600,2025-09-23,Q3 2025
+D1079,Marrow Analytics,Diego Alvarez,Hall C · Booth 43,Southeast,Tennessee,United States,Website Sign-up,Negotiation,18800,2025-04-11,Q2 2025
+D1080,Loom & Ledger,Priya Nair,Hall D · Booth 19,West,California,United States,Referral,Negotiation,132700,2025-04-05,Q2 2025
+D1078,Sunward Solar,Marcus Webb,Hall D · Booth 20,International,,Mexico,Booth Scan,Closed Lost,31600,2025-06-15,Q2 2025
+D1229,Quarrystone Capital,Fatima Al-Sayed,Hall A · Booth 3,Southeast,Virginia,United States,Cold Outreach,Proposal Sent,7800,2026-03-26,Q1 2026
+D1114,Moonrise Beverages,Yuki Tanaka,Hall B · Booth 27,International,,Singapore,Website Sign-up,Proposal Sent,70400,2025-09-22,Q3 2025
+D1160,Redwood Freight,Diego Alvarez,Hall B · Booth 3,Midwest,Illinois,United States,Webinar,Closed Lost,72000,2025-11-06,Q4 2025
+D1237,Frostline Appliances,Priya Nair,Hall B · Booth 31,Northeast,Pennsylvania,United States,Booth Scan,Closed Won,39400,2026-01-27,Q1 2026
+D1002,Willowmere Health,Priya Nair,Hall B · Booth 33,Northeast,Maine,United States,Booth Scan,Qualifying,24200,2025-03-19,Q1 2025
+D1111,Terraform Agri,Yuki Tanaka,Hall B · Booth 31,Midwest,Michigan,United States,Booth Scan,Closed Won,81900,2025-07-04,Q3 2025
+D1067,Northstar Fabrication,Ben Whitfield,Hall C · Booth 21,West,California,United States,Referral,Closed Lost,11700,2025-05-02,Q2 2025
+D1236,Amberlight Cosmetics,Diego Alvarez,Hall A · Booth 35,West,California,United States,Webinar,Qualifying,61200,2026-01-25,Q1 2026
+D1076,Slate Digital,Grace Okafor,Hall A · Booth 17,West,Nevada,United States,Booth Scan,Proposal Sent,12100,2025-06-01,Q2 2025
+D1105,Wren & Co,Liam O'Connor,Hall C · Booth 2,International,,United Kingdom,Booth Scan,Closed Won,8700,2025-06-24,Q2 2025
+D1010,Redwood Freight,Marcus Webb,Hall D · Booth 10,West,Nevada,United States,Booth Scan,Proposal Sent,144600,2025-02-03,Q1 2025
+D1062,Silverline Foods,Hannah Cho,Hall B · Booth 30,West,California,United States,Website Sign-up,Closed Won,37700,2025-06-29,Q2 2025
+D1272,Cinderfield Ceramics,Hannah Cho,Hall D · Booth 7,Midwest,Michigan,United States,Cold Outreach,Proposal Sent,11100,2026-05-08,Q2 2026
+D1219,Bluepeak Software,Diego Alvarez,Hall B · Booth 15,Midwest,Iowa,United States,Booth Scan,Proposal Sent,73100,2026-01-18,Q1 2026
+D1120,Halcyon Biotech,Yuki Tanaka,Hall A · Booth 31,International,,Germany,Booth Scan,Closed Won,88800,2025-08-27,Q3 2025
+D1267,Brightline Logistics,Yuki Tanaka,Hall C · Booth 16,West,Oregon,United States,Booth Scan,Negotiation,138700,2026-05-03,Q2 2026
+D1093,Northstar Fabrication,Yuki Tanaka,Hall C · Booth 1,Midwest,Minnesota,United States,Cold Outreach,Closed Won,99800,2025-05-07,Q2 2025
+D1255,Ironclad Security,Ben Whitfield,Hall D · Booth 6,West,Washington,United States,Referral,Qualifying,24200,2026-06-19,Q2 2026
+D1234,Copperfield Toys,Yuki Tanaka,Hall B · Booth 35,Southeast,North Carolina,United States,Booth Scan,Qualifying,21400,2026-03-02,Q1 2026
+D1040,Foundry Dynamics,Liam O'Connor,Hall B · Booth 15,Midwest,Michigan,United States,Webinar,Closed Won,55200,2025-01-04,Q1 2025
+D1119,Pinehurst Machinery,Diego Alvarez,Hall C · Booth 16,Northeast,Maine,United States,Booth Scan,Closed Won,17200,2025-09-14,Q3 2025
+D1051,Marrow Analytics,Ben Whitfield,Hall A · Booth 30,Southeast,North Carolina,United States,Cold Outreach,Closed Lost,119100,2025-01-18,Q1 2025
+D1122,Verta Foods Co.,Priya Nair,Hall D · Booth 44,West,Nevada,United States,Webinar,Closed Won,59300,2025-07-14,Q3 2025
+D1022,Marrow Analytics,Diego Alvarez,Hall C · Booth 7,Northeast,New York,United States,Referral,Negotiation,85100,2025-02-01,Q1 2025
+D1099,Wren & Co,Liam O'Connor,Hall A · Booth 40,West,Utah,United States,Webinar,Negotiation,132900,2025-04-09,Q2 2025
+D1258,Cinderfield Ceramics,Yuki Tanaka,Hall C · Booth 36,Northeast,New York,United States,Booth Scan,Negotiation,46500,2026-04-12,Q2 2026
+D1048,Loom & Ledger,Diego Alvarez,Hall C · Booth 6,Midwest,Indiana,United States,Referral,Closed Won,24800,2025-01-31,Q1 2025
+D1225,Brightline Logistics,Ben Whitfield,Hall A · Booth 31,Northeast,New Jersey,United States,Cold Outreach,Qualifying,20000,2026-01-05,Q1 2026
+D1167,Amberlight Cosmetics,Hannah Cho,Hall C · Booth 42,Northeast,Pennsylvania,United States,Booth Scan,Closed Lost,116700,2025-10-23,Q4 2025
+D1047,Nord Robotics,Fatima Al-Sayed,Hall C · Booth 30,Midwest,Ohio,United States,Booth Scan,Closed Won,22800,2025-02-26,Q1 2025
+D1245,Meridian Optics,Priya Nair,Hall D · Booth 43,International,,Germany,Website Sign-up,Qualifying,87700,2026-06-02,Q2 2026
+D1012,Quarrystone Capital,Hannah Cho,Hall D · Booth 25,West,Nevada,United States,Referral,Closed Lost,80000,2025-03-18,Q1 2025
+D1242,Silverline Foods,Grace Okafor,Hall C · Booth 17,International,,Singapore,Website Sign-up,Closed Lost,126500,2026-03-04,Q1 2026
+D1112,Sunward Solar,Marcus Webb,Hall D · Booth 45,Northeast,Maine,United States,Website Sign-up,Closed Won,11100,2025-08-08,Q3 2025
+D1039,Copperfield Toys,Marcus Webb,Hall A · Booth 25,Midwest,Ohio,United States,Booth Scan,Closed Lost,20700,2025-01-05,Q1 2025
+D1243,Foundry Dynamics,Hannah Cho,Hall D · Booth 12,Midwest,Iowa,United States,Booth Scan,Closed Lost,8600,2026-03-11,Q1 2026
+D1221,Frostline Appliances,Diego Alvarez,Hall C · Booth 5,International,,Mexico,Referral,Qualifying,96800,2026-03-14,Q1 2026
+D1280,Wren & Co,Yuki Tanaka,Hall D · Booth 28,International,,Singapore,Booth Scan,Proposal Sent,91400,2026-04-24,Q2 2026
+D1026,Cascadia Wellness,Grace Okafor,Hall B · Booth 4,Southeast,North Carolina,United States,Booth Scan,Closed Won,9100,2025-03-16,Q1 2025
+D1135,Harborview Insurance,Ben Whitfield,Hall D · Booth 39,Midwest,Illinois,United States,Booth Scan,Qualifying,35100,2025-07-08,Q3 2025
+D1144,Ironclad Security,Ben Whitfield,Hall D · Booth 3,Northeast,New Jersey,United States,Booth Scan,Closed Won,27100,2025-07-08,Q3 2025
+D1154,Loom & Ledger,Grace Okafor,Hall B · Booth 29,Northeast,Connecticut,United States,Referral,Closed Won,154100,2025-12-18,Q4 2025
+D1253,Silverline Foods,Yuki Tanaka,Hall B · Booth 45,International,,United Kingdom,Booth Scan,Proposal Sent,36300,2026-04-11,Q2 2026
+D1021,Silverline Foods,Grace Okafor,Hall A · Booth 43,West,Colorado,United States,Booth Scan,Closed Won,57600,2025-02-25,Q1 2025
+D1136,Halcyon Biotech,Fatima Al-Sayed,Hall A · Booth 32,Midwest,Michigan,United States,Booth Scan,Negotiation,58800,2025-08-25,Q3 2025
+D1170,Marrow Analytics,Liam O'Connor,Hall C · Booth 28,Midwest,Minnesota,United States,Booth Scan,Closed Won,55400,2025-11-21,Q4 2025
+D1003,Moonrise Beverages,Yuki Tanaka,Hall C · Booth 1,Southeast,Georgia,United States,Referral,Closed Won,39100,2025-01-21,Q1 2025
+D1059,Willowmere Health,Hannah Cho,Hall C · Booth 25,West,Oregon,United States,Booth Scan,Negotiation,39900,2025-05-12,Q2 2025
+D1108,Coalridge Energy,Liam O'Connor,Hall B · Booth 35,West,Nevada,United States,Booth Scan,Closed Won,34100,2025-05-17,Q2 2025
+D1134,Frostline Appliances,Grace Okafor,Hall A · Booth 23,West,Nevada,United States,Booth Scan,Proposal Sent,124300,2025-08-25,Q3 2025
+D1081,Foundry Dynamics,Diego Alvarez,Hall B · Booth 28,Southeast,Georgia,United States,Cold Outreach,Closed Won,105600,2025-04-15,Q2 2025
+D1013,Cascadia Wellness,Priya Nair,Hall C · Booth 42,Northeast,Massachusetts,United States,Website Sign-up,Proposal Sent,52200,2025-02-13,Q1 2025
+D1006,Brightline Logistics,Priya Nair,Hall A · Booth 15,Southeast,South Carolina,United States,Webinar,Closed Won,70800,2025-01-13,Q1 2025
+D1007,Meridian Optics,Hannah Cho,Hall C · Booth 45,Midwest,Illinois,United States,Booth Scan,Closed Won,101400,2025-03-29,Q1 2025
+D1098,Brightline Logistics,Grace Okafor,Hall D · Booth 42,Midwest,Illinois,United States,Booth Scan,Closed Lost,130700,2025-04-11,Q2 2025
+D1088,Nord Robotics,Ben Whitfield,Hall B · Booth 34,West,Utah,United States,Referral,Closed Won,70600,2025-05-17,Q2 2025
+D1115,Northstar Fabrication,Priya Nair,Hall D · Booth 16,Midwest,Illinois,United States,Booth Scan,Proposal Sent,113300,2025-08-16,Q3 2025
+D1181,Verta Foods Co.,Liam O'Connor,Hall D · Booth 36,International,,United Kingdom,Referral,Closed Won,10900,2025-10-17,Q4 2025
+D1161,Halcyon Biotech,Grace Okafor,Hall A · Booth 2,West,California,United States,Website Sign-up,Negotiation,18800,2025-11-02,Q4 2025
+D1187,Timberline Furniture,Fatima Al-Sayed,Hall D · Booth 40,Southeast,Tennessee,United States,Webinar,Qualifying,119600,2025-12-21,Q4 2025
+D1166,Terraform Agri,Priya Nair,Hall C · Booth 16,Midwest,Indiana,United States,Webinar,Closed Won,104400,2025-12-24,Q4 2025
+D1087,Cascadia Wellness,Priya Nair,Hall C · Booth 21,West,Arizona,United States,Booth Scan,Closed Lost,64600,2025-04-15,Q2 2025
+D1073,Ashgrove Textiles,Ben Whitfield,Hall D · Booth 18,Southeast,Florida,United States,Booth Scan,Closed Lost,88900,2025-06-15,Q2 2025
+D1163,Sunward Solar,Grace Okafor,Hall D · Booth 39,Northeast,Massachusetts,United States,Booth Scan,Qualifying,88300,2025-12-08,Q4 2025
+D1196,Cascadia Wellness,Fatima Al-Sayed,Hall A · Booth 9,International,,Canada,Website Sign-up,Closed Won,42600,2025-10-13,Q4 2025
+D1239,Driftwood Packaging,Yuki Tanaka,Hall C · Booth 25,Southeast,Virginia,United States,Referral,Proposal Sent,39500,2026-03-01,Q1 2026
+D1055,Driftwood Packaging,Diego Alvarez,Hall D · Booth 27,West,Utah,United States,Referral,Negotiation,56300,2025-01-08,Q1 2025
+D1226,Copperfield Toys,Liam O'Connor,Hall D · Booth 25,West,Nevada,United States,Referral,Negotiation,131300,2026-01-11,Q1 2026
+D1220,Frostline Appliances,Liam O'Connor,Hall D · Booth 35,West,Nevada,United States,Website Sign-up,Closed Won,24000,2026-03-27,Q1 2026
+D1102,Loom & Ledger,Hannah Cho,Hall D · Booth 40,Northeast,Maine,United States,Website Sign-up,Negotiation,87100,2025-06-27,Q2 2025
+D1223,Cinderfield Ceramics,Grace Okafor,Hall D · Booth 30,Northeast,New Jersey,United States,Referral,Qualifying,71500,2026-03-14,Q1 2026
+D1017,Halcyon Biotech,Grace Okafor,Hall D · Booth 14,International,,United Kingdom,Booth Scan,Closed Won,129300,2025-03-11,Q1 2025
+D1092,Silverline Foods,Grace Okafor,Hall B · Booth 39,International,,Germany,Booth Scan,Closed Won,20500,2025-06-05,Q2 2025
+D1244,Marrow Analytics,Priya Nair,Hall B · Booth 5,West,Washington,United States,Booth Scan,Qualifying,22800,2026-06-30,Q2 2026
+D1152,Vantage Point Media,Marcus Webb,Hall C · Booth 7,Southeast,Tennessee,United States,Booth Scan,Closed Won,158300,2025-12-04,Q4 2025
+D1001,Ashgrove Textiles,Priya Nair,Hall B · Booth 48,Midwest,Indiana,United States,Booth Scan,Closed Won,75700,2025-01-14,Q1 2025
+D1084,Frostline Appliances,Fatima Al-Sayed,Hall A · Booth 44,Northeast,Pennsylvania,United States,Booth Scan,Closed Won,18300,2025-05-05,Q2 2025
+D1125,Cascadia Wellness,Marcus Webb,Hall B · Booth 27,West,Utah,United States,Referral,Closed Lost,56700,2025-08-13,Q3 2025
+D1117,Verta Foods Co.,Priya Nair,Hall B · Booth 37,Midwest,Ohio,United States,Booth Scan,Proposal Sent,78800,2025-07-27,Q3 2025
+D1095,Redwood Freight,Marcus Webb,Hall B · Booth 27,Southeast,Virginia,United States,Referral,Closed Won,72200,2025-04-06,Q2 2025
+D1271,Cinderfield Ceramics,Ben Whitfield,Hall B · Booth 29,International,,Germany,Referral,Proposal Sent,121100,2026-05-18,Q2 2026
+D1175,Solace Interiors,Hannah Cho,Hall C · Booth 24,Northeast,New York,United States,Booth Scan,Closed Lost,8800,2025-11-19,Q4 2025
+D1104,Ironclad Security,Fatima Al-Sayed,Hall D · Booth 20,West,Oregon,United States,Website Sign-up,Closed Lost,60000,2025-04-26,Q2 2025
+D1024,Nord Robotics,Diego Alvarez,Hall D · Booth 31,Southeast,South Carolina,United States,Booth Scan,Closed Lost,7600,2025-01-28,Q1 2025
+D1020,Amberlight Cosmetics,Diego Alvarez,Hall D · Booth 14,International,,Canada,Booth Scan,Proposal Sent,99700,2025-03-11,Q1 2025
+D1263,Amberlight Cosmetics,Grace Okafor,Hall B · Booth 20,Midwest,Michigan,United States,Referral,Negotiation,129300,2026-05-12,Q2 2026
+D1097,Trailhead Outdoors,Diego Alvarez,Hall A · Booth 47,International,,United Kingdom,Cold Outreach,Closed Won,134600,2025-04-19,Q2 2025
+D1107,Halcyon Biotech,Diego Alvarez,Hall D · Booth 3,Northeast,Connecticut,United States,Booth Scan,Closed Won,16200,2025-06-14,Q2 2025
+D1176,Trailhead Outdoors,Liam O'Connor,Hall A · Booth 37,Midwest,Illinois,United States,Referral,Closed Won,55000,2025-10-18,Q4 2025
+D1277,Driftwood Packaging,Fatima Al-Sayed,Hall B · Booth 24,Northeast,New Jersey,United States,Referral,Qualifying,11600,2026-05-12,Q2 2026
+D1037,Solace Interiors,Liam O'Connor,Hall A · Booth 23,Southeast,Georgia,United States,Website Sign-up,Closed Lost,66500,2025-03-13,Q1 2025
+D1126,Fernwood Systems,Liam O'Connor,Hall C · Booth 24,West,Arizona,United States,Booth Scan,Closed Won,59200,2025-07-20,Q3 2025
+D1101,Marrow Analytics,Fatima Al-Sayed,Hall B · Booth 16,Midwest,Minnesota,United States,Booth Scan,Closed Won,128400,2025-06-07,Q2 2025
+D1165,Larkspur Events,Liam O'Connor,Hall A · Booth 25,Northeast,Pennsylvania,United States,Cold Outreach,Qualifying,66600,2025-11-30,Q4 2025
+D1180,Bluepeak Software,Hannah Cho,Hall B · Booth 8,Southeast,North Carolina,United States,Webinar,Closed Won,24700,2025-10-26,Q4 2025
+D1038,Quarrystone Capital,Marcus Webb,Hall B · Booth 27,Southeast,Georgia,United States,Cold Outreach,Negotiation,45400,2025-01-04,Q1 2025
+D1216,Cinderfield Ceramics,Liam O'Connor,Hall A · Booth 12,Northeast,Connecticut,United States,Referral,Proposal Sent,19400,2026-01-18,Q1 2026
+D1034,Terraform Agri,Ben Whitfield,Hall A · Booth 6,West,Arizona,United States,Booth Scan,Closed Won,26800,2025-03-23,Q1 2025
+D1033,Halcyon Biotech,Fatima Al-Sayed,Hall B · Booth 18,Northeast,New York,United States,Webinar,Closed Won,135300,2025-02-06,Q1 2025
+D1215,Pinehurst Machinery,Priya Nair,Hall B · Booth 12,Midwest,Indiana,United States,Webinar,Closed Won,63900,2026-03-20,Q1 2026
+D1250,Cobalt Materials,Grace Okafor,Hall C · Booth 37,West,Washington,United States,Website Sign-up,Closed Won,7800,2026-04-13,Q2 2026
+D1188,Bluepeak Software,Grace Okafor,Hall D · Booth 20,Southeast,North Carolina,United States,Webinar,Proposal Sent,7600,2025-11-28,Q4 2025
+D1106,Marrow Analytics,Grace Okafor,Hall B · Booth 39,Midwest,Minnesota,United States,Webinar,Negotiation,23600,2025-05-16,Q2 2025
+D1035,Amberlight Cosmetics,Hannah Cho,Hall D · Booth 36,Midwest,Wisconsin,United States,Booth Scan,Closed Won,10900,2025-02-24,Q1 2025
+D1025,Nord Robotics,Yuki Tanaka,Hall D · Booth 19,Midwest,Iowa,United States,Cold Outreach,Closed Won,163100,2025-02-24,Q1 2025
+D1174,Marrow Analytics,Diego Alvarez,Hall B · Booth 2,West,Colorado,United States,Booth Scan,Closed Lost,128000,2025-10-19,Q4 2025
+D1132,Verta Foods Co.,Diego Alvarez,Hall D · Booth 30,International,,Singapore,Booth Scan,Negotiation,33100,2025-08-13,Q3 2025
+D1233,Pinehurst Machinery,Yuki Tanaka,Hall C · Booth 42,International,,Mexico,Referral,Proposal Sent,81700,2026-03-27,Q1 2026
+D1235,Quarrystone Capital,Grace Okafor,Hall D · Booth 36,Northeast,Massachusetts,United States,Referral,Qualifying,21100,2026-03-09,Q1 2026
+D1179,Trailhead Outdoors,Hannah Cho,Hall C · Booth 43,West,Nevada,United States,Cold Outreach,Closed Won,87500,2025-11-14,Q4 2025
+D1262,Vantage Point Media,Grace Okafor,Hall A · Booth 26,Northeast,Connecticut,United States,Booth Scan,Closed Won,63500,2026-05-13,Q2 2026
+D1083,Bluepeak Software,Yuki Tanaka,Hall D · Booth 29,Midwest,Wisconsin,United States,Referral,Closed Won,62300,2025-04-11,Q2 2025
+D1246,Nord Robotics,Priya Nair,Hall C · Booth 2,International,,United Kingdom,Website Sign-up,Closed Won,115500,2026-06-04,Q2 2026
+D1248,Granite Bay Construction,Diego Alvarez,Hall D · Booth 37,Midwest,Illinois,United States,Cold Outreach,Closed Lost,21400,2026-05-02,Q2 2026
+D1153,Solace Interiors,Liam O'Connor,Hall D · Booth 10,International,,Mexico,Booth Scan,Negotiation,153500,2025-10-21,Q4 2025
+D1276,Pinehurst Machinery,Hannah Cho,Hall B · Booth 29,West,California,United States,Booth Scan,Proposal Sent,9000,2026-06-15,Q2 2026
+D1137,Ember Robotics,Ben Whitfield,Hall C · Booth 5,International,,United Kingdom,Webinar,Closed Lost,8300,2025-08-20,Q3 2025
+D1241,Ember Robotics,Hannah Cho,Hall D · Booth 19,Northeast,Connecticut,United States,Booth Scan,Qualifying,21900,2026-01-20,Q1 2026
+D1146,Cinderfield Ceramics,Hannah Cho,Hall C · Booth 46,Northeast,Pennsylvania,United States,Referral,Closed Won,15900,2025-07-11,Q3 2025
+D1256,Cobalt Materials,Fatima Al-Sayed,Hall B · Booth 48,Southeast,South Carolina,United States,Booth Scan,Proposal Sent,11000,2026-05-20,Q2 2026
+D1190,Halcyon Biotech,Liam O'Connor,Hall C · Booth 16,International,,Australia,Referral,Proposal Sent,62900,2025-11-29,Q4 2025
+D1053,Trailhead Outdoors,Fatima Al-Sayed,Hall C · Booth 34,Southeast,Georgia,United States,Webinar,Closed Won,30400,2025-03-04,Q1 2025
+D1036,Quarrystone Capital,Ben Whitfield,Hall B · Booth 28,Northeast,Pennsylvania,United States,Webinar,Qualifying,46900,2025-01-17,Q1 2025
+D1158,Loom & Ledger,Fatima Al-Sayed,Hall B · Booth 28,West,California,United States,Cold Outreach,Closed Lost,24900,2025-10-12,Q4 2025
+D1257,Bluepeak Software,Grace Okafor,Hall A · Booth 9,Midwest,Missouri,United States,Webinar,Qualifying,69200,2026-04-12,Q2 2026
+D1110,Granite Bay Construction,Ben Whitfield,Hall D · Booth 1,Midwest,Minnesota,United States,Booth Scan,Closed Won,65300,2025-08-03,Q3 2025
+D1274,Trailhead Outdoors,Liam O'Connor,Hall A · Booth 2,Northeast,New York,United States,Booth Scan,Negotiation,128600,2026-05-14,Q2 2026
+D1157,Marrow Analytics,Grace Okafor,Hall A · Booth 46,Midwest,Wisconsin,United States,Referral,Closed Lost,27100,2025-12-06,Q4 2025
+D1182,Granite Bay Construction,Grace Okafor,Hall D · Booth 37,International,,Singapore,Referral,Proposal Sent,43700,2025-10-10,Q4 2025
+D1208,Slate Digital,Marcus Webb,Hall C · Booth 36,Southeast,Florida,United States,Webinar,Qualifying,12900,2026-03-31,Q1 2026
+D1177,Northstar Fabrication,Marcus Webb,Hall B · Booth 32,Northeast,New Jersey,United States,Booth Scan,Closed Won,76500,2025-12-06,Q4 2025
+D1151,Larkspur Events,Diego Alvarez,Hall A · Booth 24,West,Arizona,United States,Referral,Negotiation,21700,2025-08-09,Q3 2025
+D1217,Wren & Co,Marcus Webb,Hall C · Booth 20,West,California,United States,Webinar,Negotiation,7900,2026-03-16,Q1 2026
+D1054,Coalridge Energy,Marcus Webb,Hall A · Booth 9,Midwest,Michigan,United States,Booth Scan,Negotiation,127200,2025-01-20,Q1 2025
+D1061,Ironclad Security,Marcus Webb,Hall A · Booth 2,Northeast,Maine,United States,Webinar,Negotiation,8800,2025-05-02,Q2 2025
+D1232,Redwood Freight,Marcus Webb,Hall B · Booth 27,Midwest,Minnesota,United States,Webinar,Qualifying,98000,2026-02-08,Q1 2026
+D1031,Brightline Logistics,Ben Whitfield,Hall B · Booth 23,Southeast,Georgia,United States,Referral,Closed Lost,39200,2025-01-09,Q1 2025
+D1222,Vantage Point Media,Ben Whitfield,Hall D · Booth 8,Southeast,Georgia,United States,Booth Scan,Qualifying,97200,2026-03-29,Q1 2026
+D1023,Willowmere Health,Hannah Cho,Hall A · Booth 29,Midwest,Wisconsin,United States,Referral,Proposal Sent,135700,2025-03-12,Q1 2025
+D1090,Frostline Appliances,Marcus Webb,Hall A · Booth 36,Southeast,Virginia,United States,Booth Scan,Proposal Sent,12400,2025-05-23,Q2 2025
+D1068,Trailhead Outdoors,Marcus Webb,Hall D · Booth 22,West,Arizona,United States,Referral,Closed Won,37900,2025-04-04,Q2 2025
+D1116,Ironclad Security,Priya Nair,Hall A · Booth 30,West,Nevada,United States,Booth Scan,Closed Won,122900,2025-07-12,Q3 2025
+D1265,Redwood Freight,Yuki Tanaka,Hall D · Booth 24,Midwest,Indiana,United States,Webinar,Closed Lost,23400,2026-04-15,Q2 2026
+D1077,Brightline Logistics,Priya Nair,Hall C · Booth 6,Southeast,Tennessee,United States,Booth Scan,Proposal Sent,60100,2025-05-02,Q2 2025
+D1064,Wren & Co,Yuki Tanaka,Hall B · Booth 7,Southeast,South Carolina,United States,Booth Scan,Closed Won,121600,2025-06-29,Q2 2025
+D1193,Cinderfield Ceramics,Grace Okafor,Hall C · Booth 4,Southeast,Georgia,United States,Booth Scan,Closed Won,108700,2025-10-07,Q4 2025
+D1168,Slate Digital,Hannah Cho,Hall D · Booth 3,Southeast,Virginia,United States,Booth Scan,Negotiation,25400,2025-11-07,Q4 2025
+D1261,Copperfield Toys,Fatima Al-Sayed,Hall C · Booth 17,West,California,United States,Webinar,Negotiation,69900,2026-05-02,Q2 2026
+D1189,Copperfield Toys,Grace Okafor,Hall B · Booth 21,West,Oregon,United States,Booth Scan,Closed Won,47900,2025-12-31,Q4 2025
+D1027,Marrow Analytics,Priya Nair,Hall B · Booth 4,International,,United Kingdom,Referral,Proposal Sent,16100,2025-03-07,Q1 2025
+D1109,Slate Digital,Fatima Al-Sayed,Hall D · Booth 5,Midwest,Missouri,United States,Webinar,Closed Won,25200,2025-07-19,Q3 2025
+D1056,Verta Foods Co.,Yuki Tanaka,Hall C · Booth 20,West,California,United States,Booth Scan,Closed Lost,58900,2025-05-20,Q2 2025
+D1273,Quarrystone Capital,Liam O'Connor,Hall B · Booth 34,Midwest,Illinois,United States,Booth Scan,Proposal Sent,12300,2026-06-01,Q2 2026
+D1113,Solace Interiors,Fatima Al-Sayed,Hall B · Booth 35,West,Arizona,United States,Booth Scan,Closed Won,44000,2025-07-18,Q3 2025
+D1185,Cobalt Materials,Fatima Al-Sayed,Hall C · Booth 9,Southeast,South Carolina,United States,Website Sign-up,Closed Won,75900,2025-12-20,Q4 2025
+D1264,Redwood Freight,Hannah Cho,Hall C · Booth 48,West,Washington,United States,Cold Outreach,Negotiation,105700,2026-06-28,Q2 2026
+D1011,Terraform Agri,Yuki Tanaka,Hall B · Booth 9,International,,United Kingdom,Booth Scan,Closed Won,9400,2025-03-07,Q1 2025
+D1194,Slate Digital,Fatima Al-Sayed,Hall A · Booth 28,International,,Germany,Booth Scan,Closed Lost,136300,2025-10-18,Q4 2025
+D1230,Brightline Logistics,Diego Alvarez,Hall A · Booth 16,International,,Germany,Booth Scan,Proposal Sent,23000,2026-01-06,Q1 2026
+D1139,Redwood Freight,Hannah Cho,Hall C · Booth 6,International,,Germany,Referral,Closed Lost,22300,2025-08-25,Q3 2025
+D1094,Harborview Insurance,Hannah Cho,Hall C · Booth 22,West,Utah,United States,Referral,Closed Won,57400,2025-06-10,Q2 2025
+D1211,Vantage Point Media,Fatima Al-Sayed,Hall A · Booth 6,Midwest,Missouri,United States,Booth Scan,Negotiation,92600,2026-03-25,Q1 2026
+D1140,Granite Bay Construction,Ben Whitfield,Hall C · Booth 48,Northeast,Maine,United States,Booth Scan,Negotiation,16100,2025-08-13,Q3 2025
+D1199,Bluepeak Software,Liam O'Connor,Hall D · Booth 46,International,,Australia,Webinar,Closed Won,8200,2025-12-12,Q4 2025
+D1069,Driftwood Packaging,Liam O'Connor,Hall C · Booth 36,Midwest,Indiana,United States,Booth Scan,Closed Won,19900,2025-04-02,Q2 2025
+D1030,Bluepeak Software,Grace Okafor,Hall A · Booth 1,Midwest,Indiana,United States,Cold Outreach,Closed Won,112000,2025-02-28,Q1 2025
+D1147,Trailhead Outdoors,Grace Okafor,Hall B · Booth 24,International,,Mexico,Referral,Closed Lost,56600,2025-08-17,Q3 2025
+D1029,Vaultkeep Finance,Ben Whitfield,Hall B · Booth 43,Midwest,Minnesota,United States,Cold Outreach,Negotiation,51800,2025-02-10,Q1 2025
+D1131,Northstar Fabrication,Fatima Al-Sayed,Hall B · Booth 10,Midwest,Wisconsin,United States,Booth Scan,Closed Won,11200,2025-09-11,Q3 2025
+D1141,Ashgrove Textiles,Ben Whitfield,Hall C · Booth 23,International,,Canada,Booth Scan,Closed Lost,20000,2025-09-21,Q3 2025
+D1127,Cobalt Materials,Diego Alvarez,Hall C · Booth 9,West,Washington,United States,Booth Scan,Proposal Sent,88000,2025-09-10,Q3 2025
+D1266,Moonrise Beverages,Hannah Cho,Hall D · Booth 46,International,,United Kingdom,Booth Scan,Proposal Sent,34100,2026-04-27,Q2 2026
+D1198,Slate Digital,Ben Whitfield,Hall B · Booth 21,West,Utah,United States,Booth Scan,Closed Won,66800,2025-12-18,Q4 2025
+D1191,Fernwood Systems,Priya Nair,Hall D · Booth 16,Midwest,Ohio,United States,Cold Outreach,Closed Lost,104000,2025-10-21,Q4 2025
+D1145,Cobalt Materials,Ben Whitfield,Hall A · Booth 29,West,Washington,United States,Referral,Closed Won,43200,2025-09-12,Q3 2025
+D1118,Driftwood Packaging,Marcus Webb,Hall A · Booth 18,Midwest,Ohio,United States,Webinar,Closed Lost,79900,2025-07-19,Q3 2025
+D1200,Ashgrove Textiles,Yuki Tanaka,Hall A · Booth 39,International,,United Kingdom,Booth Scan,Closed Won,128000,2025-11-30,Q4 2025
+D1044,Nord Robotics,Ben Whitfield,Hall B · Booth 24,International,,Mexico,Website Sign-up,Proposal Sent,132900,2025-02-25,Q1 2025
+D1074,Fernwood Systems,Marcus Webb,Hall B · Booth 20,Midwest,Iowa,United States,Booth Scan,Closed Won,17200,2025-04-02,Q2 2025
+D1138,Foundry Dynamics,Diego Alvarez,Hall D · Booth 46,Midwest,Indiana,United States,Referral,Closed Won,12100,2025-09-20,Q3 2025
+D1058,Granite Bay Construction,Hannah Cho,Hall A · Booth 26,West,Arizona,United States,Cold Outreach,Closed Won,7400,2025-06-15,Q2 2025
+D1071,Ember Robotics,Yuki Tanaka,Hall C · Booth 31,Southeast,Georgia,United States,Booth Scan,Closed Won,66900,2025-06-10,Q2 2025
+D1009,Marrow Analytics,Marcus Webb,Hall D · Booth 18,Northeast,Connecticut,United States,Webinar,Negotiation,108500,2025-01-09,Q1 2025
+D1075,Marrow Analytics,Ben Whitfield,Hall B · Booth 41,Midwest,Indiana,United States,Website Sign-up,Proposal Sent,8700,2025-06-02,Q2 2025
+D1057,Moonrise Beverages,Marcus Webb,Hall D · Booth 32,West,Utah,United States,Booth Scan,Closed Won,124300,2025-04-04,Q2 2025
+D1195,Granite Bay Construction,Liam O'Connor,Hall B · Booth 24,Northeast,Massachusetts,United States,Referral,Closed Won,58300,2025-12-10,Q4 2025
+D1204,Redwood Freight,Hannah Cho,Hall C · Booth 35,West,Arizona,United States,Cold Outreach,Negotiation,149700,2026-02-15,Q1 2026
+D1016,Bluepeak Software,Marcus Webb,Hall A · Booth 6,Northeast,Pennsylvania,United States,Booth Scan,Closed Lost,93300,2025-03-04,Q1 2025
+D1043,Redwood Freight,Yuki Tanaka,Hall A · Booth 25,International,,Mexico,Cold Outreach,Negotiation,9000,2025-03-15,Q1 2025
+D1279,Bluepeak Software,Diego Alvarez,Hall B · Booth 20,Southeast,North Carolina,United States,Booth Scan,Qualifying,126700,2026-04-15,Q2 2026
+D1278,Harborview Insurance,Ben Whitfield,Hall D · Booth 38,Midwest,Ohio,United States,Referral,Proposal Sent,70400,2026-04-15,Q2 2026
+D1228,Verta Foods Co.,Fatima Al-Sayed,Hall D · Booth 35,West,California,United States,Website Sign-up,Closed Won,22500,2026-02-18,Q1 2026
+D1213,Coalridge Energy,Priya Nair,Hall A · Booth 22,Northeast,Massachusetts,United States,Booth Scan,Proposal Sent,119500,2026-02-06,Q1 2026
+D1252,Pinehurst Machinery,Liam O'Connor,Hall B · Booth 46,Northeast,Maine,United States,Cold Outreach,Closed Lost,27900,2026-05-21,Q2 2026
+D1210,Slate Digital,Diego Alvarez,Hall B · Booth 27,Southeast,North Carolina,United States,Booth Scan,Closed Lost,67500,2026-03-25,Q1 2026
+D1254,Willowmere Health,Marcus Webb,Hall D · Booth 21,Northeast,Maine,United States,Booth Scan,Negotiation,67800,2026-04-04,Q2 2026
+D1259,Nord Robotics,Fatima Al-Sayed,Hall A · Booth 47,West,Nevada,United States,Booth Scan,Closed Lost,23200,2026-06-11,Q2 2026
+D1197,Meridian Optics,Hannah Cho,Hall D · Booth 33,Southeast,Virginia,United States,Website Sign-up,Qualifying,19700,2025-10-06,Q4 2025
+D1100,Ember Robotics,Diego Alvarez,Hall A · Booth 29,West,California,United States,Cold Outreach,Closed Won,7300,2025-04-22,Q2 2025
+D1070,Copperfield Toys,Grace Okafor,Hall D · Booth 42,International,,United Kingdom,Webinar,Closed Won,7500,2025-06-02,Q2 2025
+D1249,Cobalt Materials,Priya Nair,Hall D · Booth 36,Northeast,Pennsylvania,United States,Referral,Qualifying,9000,2026-05-31,Q2 2026
+D1005,Moonrise Beverages,Diego Alvarez,Hall C · Booth 41,West,Washington,United States,Booth Scan,Closed Lost,42900,2025-03-21,Q1 2025
+D1184,Larkspur Events,Hannah Cho,Hall C · Booth 46,Midwest,Ohio,United States,Booth Scan,Closed Won,96600,2025-10-29,Q4 2025
+D1028,Brightline Logistics,Marcus Webb,Hall B · Booth 38,West,Nevada,United States,Booth Scan,Qualifying,12200,2025-03-18,Q1 2025
+D1231,Marrow Analytics,Hannah Cho,Hall B · Booth 47,International,,United Kingdom,Cold Outreach,Proposal Sent,105500,2026-03-15,Q1 2026
+D1162,Frostline Appliances,Ben Whitfield,Hall C · Booth 16,West,Colorado,United States,Booth Scan,Proposal Sent,22200,2025-11-08,Q4 2025
+D1096,Wren & Co,Yuki Tanaka,Hall A · Booth 9,Southeast,Tennessee,United States,Referral,Closed Lost,46500,2025-06-04,Q2 2025
+D1072,Cascadia Wellness,Liam O'Connor,Hall C · Booth 20,Midwest,Illinois,United States,Website Sign-up,Negotiation,128900,2025-05-03,Q2 2025
+D1148,Amberlight Cosmetics,Priya Nair,Hall A · Booth 36,Midwest,Minnesota,United States,Booth Scan,Closed Won,33100,2025-09-25,Q3 2025
+D1251,Timberline Furniture,Grace Okafor,Hall A · Booth 44,Midwest,Minnesota,United States,Booth Scan,Closed Won,102100,2026-05-06,Q2 2026
+D1086,Amberlight Cosmetics,Liam O'Connor,Hall C · Booth 27,Northeast,Massachusetts,United States,Webinar,Closed Won,133800,2025-06-28,Q2 2025
+D1089,Marrow Analytics,Marcus Webb,Hall C · Booth 29,Midwest,Illinois,United States,Referral,Closed Won,9700,2025-06-29,Q2 2025
