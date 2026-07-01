@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ExpoSale — Sales Command Deck</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0e14;
+    --surface:#12161f;
+    --surface-2:#1a2030;
+    --surface-3:#232b3d;
+    --border:rgba(255,255,255,0.08);
+    --border-strong:rgba(255,255,255,0.16);
+    --text:#e8eaf0;
+    --text-dim:#8a93a6;
+    --gold:#e8a33d;
+    --gold-dim:rgba(232,163,61,0.14);
+    --teal:#2dd4bf;
+    --teal-dim:rgba(45,212,191,0.14);
+    --shadow:0 20px 50px rgba(0,0,0,0.5);
+    --radius:14px;
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    line-height:1.5;
+    overflow-x:hidden;
+    background-image:
+      radial-gradient(circle at 15% 0%, rgba(232,163,61,0.08), transparent 40%),
+      radial-gradient(circle at 85% 15%, rgba(45,212,191,0.07), transparent 45%);
+  }
+
+  h1,h2,h3,h4{
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+
+  a{color:inherit; text-decoration:none;}
+
+  .mono{font-family:'JetBrains Mono', monospace;}
+
+  img{max-width:100%; display:block;}
+
+  :focus-visible{
+    outline:2px solid var(--teal);
+    outline-offset:3px;
+  }
+
+  .wrap{
+    max-width:1240px;
+    margin:0 auto;
+    padding:0 32px;
+  }
+
+  /* ================= NAV ================= */
+  #nav-toggle{display:none;}
+
+  header.nav{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(11,14,20,0.82);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);
+  }
+
+  .nav-inner{
+    max-width:1240px;
+    margin:0 auto;
+    padding:0 32px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:72px;
+  }
+
+  .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:700;
+    font-size:1.25rem;
+    letter-spacing:-0.02em;
+  }
+
+  .logo-mark{
+    width:34px;
+    height:34px;
+    border-radius:9px;
+    background:linear-gradient(135deg, var(--gold), #b8791f);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#0b0e14;
+    font-weight:700;
+    font-family:'Space Grotesk', sans-serif;
+    box-shadow:0 6px 16px rgba(232,163,61,0.35);
+    transform:perspective(300px) rotateY(-12deg);
+  }
+
+  .logo span.sub{color:var(--gold); font-weight:700;}
+
+  nav.links{
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+
+  nav.links a{
+    padding:9px 16px;
+    border-radius:8px;
+    font-size:0.92rem;
+    font-weight:500;
+    color:var(--text-dim);
+    transition:color .2s ease, background .2s ease;
+  }
+
+  nav.links a:hover{color:var(--text); background:var(--surface-2);}
+
+  .btn-analytics{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 20px;
+    border-radius:9px;
+    background:linear-gradient(135deg, var(--teal), #189c8b);
+    color:#04211c !important;
+    font-weight:600;
+    font-size:0.92rem;
+    box-shadow:0 8px 22px rgba(45,212,191,0.28);
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+
+  .btn-analytics:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 28px rgba(45,212,191,0.4);
+  }
+
+  .hamburger{
+    display:none;
+    width:40px;
+    height:40px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:var(--surface-2);
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:4px;
+  }
+
+  .hamburger span{
+    width:18px;
+    height:2px;
+    background:var(--text);
+    display:block;
+    border-radius:2px;
+  }
+
+  /* ================= HERO ================= */
+  .hero{
+    position:relative;
+    padding:96px 0 120px;
+    overflow:hidden;
+  }
+
+  .hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image:url('https://picsum.photos/seed/exposale-floor/1800/1000');
+    background-size:cover;
+    background-position:center;
+    opacity:0.06;
+    filter:grayscale(1) contrast(1.2);
+    z-index:0;
+  }
+
+  .hero-grid{
+    position:relative;
+    z-index:1;
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    gap:56px;
+    align-items:center;
+  }
+
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.78rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--gold);
+    background:var(--gold-dim);
+    border:1px solid rgba(232,163,61,0.3);
+    padding:6px 12px;
+    border-radius:100px;
+    margin-bottom:22px;
+  }
+
+  .eyebrow .dot{
+    width:6px; height:6px; border-radius:50%;
+    background:var(--gold);
+    box-shadow:0 0 8px var(--gold);
+  }
+
+  .hero h1{
+    font-size:clamp(2.2rem, 4.2vw, 3.4rem);
+    line-height:1.08;
+    margin-bottom:20px;
+  }
+
+  .hero h1 .accent{
+    background:linear-gradient(120deg, var(--gold), #ffd58a);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+
+  .hero p.lead{
+    color:var(--text-dim);
+    font-size:1.05rem;
+    max-width:480px;
+    margin-bottom:34px;
+  }
+
+  .hero-ctas{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+
+  .btn-primary{
+    padding:13px 26px;
+    border-radius:10px;
+    background:linear-gradient(135deg, var(--gold), #c98a2a);
+    color:#241503;
+    font-weight:600;
+    box-shadow:0 10px 26px rgba(232,163,61,0.3);
+    transition:transform .2s ease;
+  }
+  .btn-primary:hover{transform:translateY(-2px);}
+
+  .btn-ghost{
+    padding:13px 26px;
+    border-radius:10px;
+    border:1px solid var(--border-strong);
+    color:var(--text);
+    font-weight:500;
+    transition:background .2s ease, border-color .2s ease;
+  }
+  .btn-ghost:hover{background:var(--surface-2); border-color:var(--teal);}
+
+  .hero-stats{
+    display:flex;
+    gap:34px;
+    margin-top:48px;
+  }
+
+  .hero-stats div h3{
+    font-family:'JetBrains Mono', monospace;
+    font-size:1.5rem;
+    color:var(--teal);
+  }
+  .hero-stats div span{
+    font-size:0.78rem;
+    color:var(--text-dim);
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+  }
+
+  /* ---- 3D deal carousel ---- */
+  .stage{
+    position:relative;
+    height:420px;
+    perspective:1400px;
+  }
+
+  .carousel{
+    position:absolute;
+    inset:0;
+    margin:auto;
+    width:260px;
+    height:340px;
+    top:20px;
+    transform-style:preserve-3d;
+    animation:spin 22s linear infinite;
+  }
+
+  .stage:hover .carousel{animation-play-state:paused;}
+
+  @keyframes spin{
+    from{transform:rotateY(0deg);}
+    to{transform:rotateY(360deg);}
+  }
+
+  .deal-card{
+    position:absolute;
+    inset:0;
+    border-radius:16px;
+    background:linear-gradient(160deg, var(--surface-3), var(--surface));
+    border:1px solid var(--border-strong);
+    box-shadow:var(--shadow);
+    padding:22px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    backface-visibility:hidden;
+  }
+
+  .deal-card:nth-child(1){transform:rotateY(0deg) translateZ(230px);}
+  .deal-card:nth-child(2){transform:rotateY(90deg) translateZ(230px);}
+  .deal-card:nth-child(3){transform:rotateY(180deg) translateZ(230px);}
+  .deal-card:nth-child(4){transform:rotateY(270deg) translateZ(230px);}
+
+  .deal-card .stage-tag{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.7rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--gold);
+    background:var(--gold-dim);
+    padding:4px 10px;
+    border-radius:100px;
+    width:fit-content;
+  }
+
+  .deal-card h4{font-size:1.05rem; margin-top:14px;}
+  .deal-card .booth{color:var(--text-dim); font-size:0.85rem; margin-top:4px;}
+
+  .deal-card .value{
+    font-family:'JetBrains Mono', monospace;
+    font-size:1.5rem;
+    color:var(--teal);
+    margin-top:16px;
+  }
+
+  .deal-card .bar{
+    height:5px;
+    background:var(--surface-2);
+    border-radius:4px;
+    margin-top:10px;
+    overflow:hidden;
+  }
+  .deal-card .bar i{
+    display:block;
+    height:100%;
+    background:linear-gradient(90deg, var(--gold), var(--teal));
+    border-radius:4px;
+  }
+
+  .float-badge{
+    position:absolute;
+    padding:10px 14px;
+    border-radius:10px;
+    background:var(--surface-2);
+    border:1px solid var(--border-strong);
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.75rem;
+    box-shadow:var(--shadow);
+    animation:float 6s ease-in-out infinite;
+  }
+  .float-badge.b1{top:10px; left:-10px; color:var(--gold); animation-delay:0s;}
+  .float-badge.b2{bottom:30px; right:-16px; color:var(--teal); animation-delay:1.5s;}
+
+  @keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-14px);}
+  }
+
+  /* ================= SECTION HEADERS ================= */
+  .section{padding:88px 0;}
+  .section.alt{background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border);}
+
+  .section-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:24px;
+    margin-bottom:44px;
+    flex-wrap:wrap;
+  }
+
+  .section-head h2{font-size:clamp(1.6rem, 2.6vw, 2.1rem);}
+  .section-head p{color:var(--text-dim); max-width:420px;}
+
+  .tag-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--teal);
+    margin-bottom:10px;
+    display:block;
+  }
+
+  /* ================= QUICK NAV GRID ================= */
+  .grid-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:22px;
+  }
+
+  .nav-card{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:26px;
+    display:block;
+    transition:transform .35s ease, border-color .3s ease, box-shadow .3s ease;
+    transform-style:preserve-3d;
+  }
+
+  .nav-card:hover{
+    transform:perspective(700px) rotateX(4deg) rotateY(-4deg) translateY(-4px);
+    border-color:var(--border-strong);
+    box-shadow:var(--shadow);
+  }
+
+  .nav-card .icon{
+    width:44px;
+    height:44px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.3rem;
+    margin-bottom:18px;
+  }
+
+  .nav-card.gold .icon{background:var(--gold-dim); color:var(--gold);}
+  .nav-card.teal .icon{background:var(--teal-dim); color:var(--teal);}
+
+  .nav-card h3{font-size:1.05rem; margin-bottom:6px;}
+  .nav-card p{color:var(--text-dim); font-size:0.88rem;}
+
+  .nav-card .go{
+    margin-top:16px;
+    font-size:0.82rem;
+    font-weight:600;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+  }
+  .nav-card.gold .go{color:var(--gold);}
+  .nav-card.teal .go{color:var(--teal);}
+
+  /* ================= ANALYTICS ================= */
+  .analytics-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:22px;
+  }
+
+  .stat-card{
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:26px;
+    transition:transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+  }
+
+  .stat-card:hover{
+    transform:translateY(-6px);
+    box-shadow:var(--shadow);
+    border-color:rgba(45,212,191,0.35);
+  }
+
+  .stat-card .top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:18px;
+  }
+
+  .stat-card h3{font-size:1.02rem;}
+  .stat-card .delta{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.78rem;
+    padding:3px 9px;
+    border-radius:100px;
+  }
+  .delta.up{color:var(--teal); background:var(--teal-dim);}
+  .delta.down{color:#f08a6c; background:rgba(240,138,108,0.14);}
+
+  .stat-card .figure{
+    font-family:'JetBrains Mono', monospace;
+    font-size:1.9rem;
+    color:var(--text);
+    margin-bottom:16px;
+  }
+
+  .mini-chart{
+    display:flex;
+    align-items:flex-end;
+    gap:5px;
+    height:52px;
+    margin-bottom:18px;
+  }
+
+  .mini-chart i{
+    flex:1;
+    background:linear-gradient(180deg, var(--teal), rgba(45,212,191,0.15));
+    border-radius:3px 3px 0 0;
+    animation:grow 1s ease forwards;
+    transform-origin:bottom;
+    transform:scaleY(0);
+  }
+
+  .stat-card.gold .mini-chart i{background:linear-gradient(180deg, var(--gold), rgba(232,163,61,0.15));}
+
+  @keyframes grow{to{transform:scaleY(1);}}
+
+  .stat-card .view-link{
+    font-size:0.85rem;
+    font-weight:600;
+    color:var(--teal);
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    border-top:1px solid var(--border);
+    padding-top:16px;
+    width:100%;
+  }
+  .stat-card.gold .view-link{color:var(--gold);}
+
+  /* ================= CTA STRIP ================= */
+  .cta-strip{
+    padding:70px 0;
+  }
+  .cta-box{
+    background:linear-gradient(135deg, var(--surface-3), var(--surface));
+    border:1px solid var(--border-strong);
+    border-radius:20px;
+    padding:52px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:24px;
+    flex-wrap:wrap;
+    position:relative;
+    overflow:hidden;
+  }
+  .cta-box::after{
+    content:"";
+    position:absolute;
+    width:280px;height:280px;
+    background:radial-gradient(circle, rgba(232,163,61,0.18), transparent 70%);
+    right:-60px; top:-80px;
+  }
+  .cta-box h2{font-size:1.7rem; max-width:420px; position:relative; z-index:1;}
+  .cta-box p{color:var(--text-dim); margin-top:8px; max-width:400px; position:relative; z-index:1;}
+
+  /* ================= FOOTER ================= */
+  footer{
+    border-top:1px solid var(--border);
+    padding:44px 0;
+  }
+  .footer-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+  .footer-links{display:flex; gap:22px; flex-wrap:wrap;}
+  .footer-links a{color:var(--text-dim); font-size:0.88rem;}
+  .footer-links a:hover{color:var(--text);}
+  footer .copy{color:var(--text-dim); font-size:0.82rem;}
+
+  /* ================= RESPONSIVE ================= */
+  @media (max-width: 980px){
+    .hero-grid{grid-template-columns:1fr;}
+    .stage{height:360px; order:-1;}
+  }
+
+  @media (max-width: 860px){
+    nav.links{
+      position:fixed;
+      top:72px; left:0; right:0;
+      background:var(--bg);
+      border-bottom:1px solid var(--border);
+      flex-direction:column;
+      align-items:stretch;
+      padding:14px 20px 20px;
+      gap:4px;
+      transform:translateY(-130%);
+      transition:transform .3s ease;
+      z-index:99;
+    }
+    nav.links a{padding:12px 14px; width:100%;}
+    .btn-analytics{margin-top:8px; justify-content:center;}
+    .hamburger{display:flex;}
+    #nav-toggle:checked ~ .nav-inner nav.links{transform:translateY(0);}
+  }
+
+  @media (max-width: 640px){
+    .wrap, .nav-inner{padding:0 20px;}
+    .hero{padding:56px 0 72px;}
+    .hero-stats{gap:22px; flex-wrap:wrap;}
+    .cta-box{padding:34px;}
+    .cta-box h2{font-size:1.4rem;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .carousel{animation:none;}
+    .float-badge{animation:none;}
+    .mini-chart i{animation:none; transform:scaleY(1);}
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<input type="checkbox" id="nav-toggle">
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">E</span>
+      Expo<span class="sub">Sale</span>
+    </a>
+
+    <nav class="links">
+      <a href="#top">Overview</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#exhibitors">Exhibitors</a>
+      <a href="#team">Team</a>
+      <a href="#analytics" class="btn-analytics">📊 Analytics</a>
+    </nav>
+
+    <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow"><span class="dot"></span> Live floor, live pipeline</span>
+        <h1>Every booth conversation, <span class="accent">tracked to close.</span></h1>
+        <p class="lead">ExpoSale turns exhibition-floor conversations into a working pipeline — capture leads at the booth, move them through stages, and see exactly where revenue is stalling.</p>
+        <div class="hero-ctas">
+          <a href="#pipeline" class="btn-primary">Open pipeline</a>
+          <a href="#analytics" class="btn-ghost">View analytics</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <h3 class="mono">$2.4M</h3>
+            <span>Open pipeline value</span>
+          </div>
+          <div>
+            <h3 class="mono">312</h3>
+            <span>Active leads</span>
+          </div>
+          <div>
+            <h3 class="mono">38%</h3>
+            <span>Booth → deal rate</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="stage">
+        <div class="carousel">
+          <div class="deal-card">
+            <span class="stage-tag">Negotiation</span>
+            <div>
+              <h4>Nord Robotics</h4>
+              <div class="booth">Booth 14 · Hall B</div>
+            </div>
+            <div class="value">$86,400</div>
+            <div class="bar"><i style="width:70%"></i></div>
+          </div>
+          <div class="deal-card">
+            <span class="stage-tag">Proposal sent</span>
+            <div>
+              <h4>Verta Foods Co.</h4>
+              <div class="booth">Booth 27 · Hall A</div>
+            </div>
+            <div class="value">$41,900</div>
+            <div class="bar"><i style="width:45%"></i></div>
+          </div>
+          <div class="deal-card">
+            <span class="stage-tag">Closed won</span>
+            <div>
+              <h4>Solace Interiors</h4>
+              <div class="booth">Booth 08 · Hall B</div>
+            </div>
+            <div class="value">$118,000</div>
+            <div class="bar"><i style="width:100%"></i></div>
+          </div>
+          <div class="deal-card">
+            <span class="stage-tag">Qualifying</span>
+            <div>
+              <h4>Marrow Analytics</h4>
+              <div class="booth">Booth 33 · Hall C</div>
+            </div>
+            <div class="value">$22,750</div>
+            <div class="bar"><i style="width:20%"></i></div>
+          </div>
+        </div>
+
+        <div class="float-badge b1">+14 new leads today</div>
+        <div class="float-badge b2">Deal won · $118,000</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUICK NAV ============ -->
+  <section class="section alt" id="pipeline">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="tag-label">Workspace</span>
+          <h2>Get to work faster</h2>
+        </div>
+        <p>Jump straight into the tools your team uses on and off the show floor.</p>
+      </div>
+
+      <div class="grid-cards">
+        <a href="#pipeline" class="nav-card gold">
+          <div class="icon">◆</div>
+          <h3>Deal Pipeline</h3>
+          <p>Track every deal from first scan to signed contract.</p>
+          <span class="go">Open pipeline →</span>
+        </a>
+
+        <a href="#leads" class="nav-card teal" id="leads">
+          <div class="icon">✉</div>
+          <h3>Leads Inbox</h3>
+          <p>Freshly scanned badges and booth sign-ups, sorted by priority.</p>
+          <span class="go">View leads →</span>
+        </a>
+
+        <a href="#exhibitors" class="nav-card gold" id="exhibitors">
+          <div class="icon">▣</div>
+          <h3>Exhibitor Directory</h3>
+          <p>Every booth, contact, and account history in one place.</p>
+          <span class="go">Browse directory →</span>
+        </a>
+
+        <a href="#team" class="nav-card teal" id="team">
+          <div class="icon">◈</div>
+          <h3>Team Performance</h3>
+          <p>See how each rep is pacing against their floor quota.</p>
+          <span class="go">View team →</span>
+        </a>
+
+        <a href="#analytics" class="nav-card gold">
+          <div class="icon">▲</div>
+          <h3>Analytics</h3>
+          <p>Revenue, conversion, and forecast reporting for the whole event.</p>
+          <span class="go">Open analytics →</span>
+        </a>
+
+        <a href="#support" class="nav-card teal" id="support">
+          <div class="icon">◐</div>
+          <h3>Support Desk</h3>
+          <p>Booth issues, badge scanner troubleshooting, on-site help.</p>
+          <span class="go">Get support →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ANALYTICS ============ -->
+  <section class="section" id="analytics">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="tag-label">Reporting</span>
+          <h2>Analytics</h2>
+        </div>
+        <p>Six live reports covering revenue, conversion, and where deals are actually coming from.</p>
+      </div>
+
+      <div class="analytics-grid">
+
+        <a href="#revenue-report" class="stat-card gold">
+          <div class="top">
+            <h3>Revenue by Quarter</h3>
+            <span class="delta up">▲ 18.2%</span>
+          </div>
+          <div class="figure mono">$1.86M</div>
+          <div class="mini-chart">
+            <i style="height:40%; animation-delay:.05s;"></i>
+            <i style="height:55%; animation-delay:.1s;"></i>
+            <i style="height:48%; animation-delay:.15s;"></i>
+            <i style="height:70%; animation-delay:.2s;"></i>
+            <i style="height:62%; animation-delay:.25s;"></i>
+            <i style="height:88%; animation-delay:.3s;"></i>
+          </div>
+          <span class="view-link">Open full report →</span>
+        </a>
+
+        <a href="#conversion-report" class="stat-card teal">
+          <div class="top">
+            <h3>Conversion Funnel</h3>
+            <span class="delta up">▲ 4.1%</span>
+          </div>
+          <div class="figure mono">38.0%</div>
+          <div class="mini-chart">
+            <i style="height:95%; animation-delay:.05s;"></i>
+            <i style="height:74%; animation-delay:.1s;"></i>
+            <i style="height:58%; animation-delay:.15s;"></i>
+            <i style="height:41%; animation-delay:.2s;"></i>
+            <i style="height:30%; animation-delay:.25s;"></i>
+            <i style="height:22%; animation-delay:.3s;"></i>
+          </div>
+          <span class="view-link">Open full report →</span>
+        </a>
+
+        <a href="#regional-report" class="stat-card gold">
+          <div class="top">
+            <h3>Regional Sales</h3>
+            <span class="delta down">▼ 2.3%</span>
+          </div>
+          <div class="figure mono">14 regions</div>
+          <div class="mini-chart">
+            <i style="height:60%; animation-delay:.05s;"></i>
+            <i style="height:35%; animation-delay:.1s;"></i>
+            <i style="height:80%; animation-delay:.15s;"></i>
+            <i style="height:50%; animation-delay:.2s;"></i>
+            <i style="height:65%; animation-delay:.25s;"></i>
+            <i style="height:44%; animation-delay:.3s;"></i>
+          </div>
+          <span class="view-link">Open full report →</span>
+        </a>
+
+        <a href="#lead-source-report" class="stat-card teal">
+          <div class="top">
+            <h3>Lead Source Breakdown</h3>
+            <span class="delta up">▲ 9.6%</span>
+          </div>
+          <div class="figure mono">312 leads</div>
+          <div class="mini-chart">
+            <i style="height:50%; animation-delay:.05s;"></i>
+            <i style="height:66%; animation-delay:.1s;"></i>
+            <i style="height:40%; animation-delay:.15s;"></i>
+            <i style="height:78%; animation-delay:.2s;"></i>
+            <i style="height:33%; animation-delay:.25s;"></i>
+            <i style="height:58%; animation-delay:.3s;"></i>
+          </div>
+          <span class="view-link">Open full report →</span>
+        </a>
+
+        <a href="#forecast-report" class="stat-card gold">
+          <div class="top">
+            <h3>Sales Forecast</h3>
+            <span class="delta up">▲ 11.4%</span>
+          </div>
+          <div class="figure mono">$2.9M</div>
+          <div class="mini-chart">
+            <i style="height:30%; animation-delay:.05s;"></i>
+            <i style="height:42%; animation-delay:.1s;"></i>
+            <i style="height:55%; animation-delay:.15s;"></i>
+            <i style="height:63%; animation-delay:.2s;"></i>
+            <i style="height:80%; animation-delay:.25s;"></i>
+            <i style="height:92%; animation-delay:.3s;"></i>
+          </div>
+          <span class="view-link">Open full report →</span>
+        </a>
+
+        <a href="#reps-report" class="stat-card teal">
+          <div class="top">
+            <h3>Top Performing Reps</h3>
+            <span class="delta up">▲ 6.8%</span>
+          </div>
+          <div class="figure mono">9 reps</div>
+          <div class="mini-chart">
+            <i style="height:88%; animation-delay:.05s;"></i>
+            <i style="height:76%; animation-delay:.1s;"></i>
+            <i style="height:70%; animation-delay:.15s;"></i>
+            <i style="height:60%; animation-delay:.2s;"></i>
+            <i style="height:48%; animation-delay:.25s;"></i>
+            <i style="height:35%; animation-delay:.3s;"></i>
+          </div>
+          <span class="view-link">Open full report →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA STRIP ============ -->
+  <section class="cta-strip">
+    <div class="wrap">
+      <div class="cta-box">
+        <div>
+          <h2>Walking the floor tomorrow?</h2>
+          <p>Pull up this week's forecast before doors open so your team knows exactly which booths to prioritize.</p>
+        </div>
+        <a href="#forecast-report" class="btn-primary">Open forecast →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="logo">
+      <span class="logo-mark">E</span>
+      Expo<span class="sub">Sale</span>
+    </div>
+    <div class="footer-links">
+      <a href="#pipeline">Pipeline</a>
+      <a href="#exhibitors">Exhibitors</a>
+      <a href="#team">Team</a>
+      <a href="#analytics">Analytics</a>
+      <a href="#support">Support</a>
+    </div>
+    <span class="copy">© 2026 ExpoSale. All rights reserved.</span>
+  </div>
+</footer>
+
+</body>
+</html>
